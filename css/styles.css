@@ -48,3 +48,7 @@ input[type="Number"] {
 #dropdown {
   margin: 10px 0;
 }
+.radio-btn-label {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
