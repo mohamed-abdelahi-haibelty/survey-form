@@ -7,8 +7,14 @@ section {
   height: 100vh;
   background-image: url(../images/black-orchid.png);
   background-color: #00378a;
+  position: relative;
 }
 #title {
   color: #ccc;
   position: absolute;
+  top: 50px;
+  left: 33%;
+}
+#title h2 {
+  padding-left: 50px;
 }
