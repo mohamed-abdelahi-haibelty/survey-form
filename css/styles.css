@@ -34,5 +34,17 @@ input {
   margin: 10px 0;
 }
 .input {
-  padding: 5px 31.5%;
+  width: 90%;
+  padding: 5px 0;
+}
+input[type="Number"] {
+  width: 90%;
+  padding: 5px 0;
+}
+#current-role {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+#dropdown {
+  margin: 10px 0;
 }
