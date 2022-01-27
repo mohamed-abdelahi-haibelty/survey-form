@@ -8,3 +8,6 @@ section {
   background-image: url(../images/black-orchid.png);
   background-color: #00378a;
 }
+#title {
+  color: #ccc;
+}
