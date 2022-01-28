@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 section {
   width: 100%;
@@ -35,20 +36,63 @@ input {
 }
 .input {
   width: 90%;
-  padding: 5px 0;
+  padding: 10px 5px;
+  border-radius: 15px;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+.input:focus {
+  border: solid 3px #046582;
 }
 input[type="Number"] {
   width: 90%;
-  padding: 5px 0;
+  padding: 10px 5px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="Number"]:focus {
+  border: solid 3px #046582;
 }
 #current-role {
   font-size: 1.2em;
   margin: 10px 0;
+  font-weight: 600;
 }
 #dropdown {
   margin: 10px 0;
+  width: 91%;
+  padding: 10px 5px;
+  border-radius: 15px;
+  border: solid 3px #046582;
+}
+#dropdown2 {
+  margin: 10px 0;
+  width: 91%;
+  padding: 10px 5px;
+  border-radius: 15px;
+  border: solid 3px #046582;
 }
 .radio-btn-label {
   margin: 10px 0;
   font-size: 1.2em;
+  font-weight: 600;
+}
+.radio-btn label {
+  font-size: 1.2em;
+}
+#favirote-feature-label {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 15px;
+}
+.checkbox label {
+  font-size: 1.4em;
 }
