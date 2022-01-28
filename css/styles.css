@@ -30,6 +30,7 @@ section {
   padding-bottom: 40px;
   border-radius: 15px;
   color: #ccc;
+  background-color: #041c32;
 }
 input {
   margin: 10px 0;
@@ -69,6 +70,9 @@ input[type="Number"]:focus {
   border-radius: 15px;
   border: solid 3px #046582;
 }
+option {
+  font-size: 20px;
+}
 #dropdown2 {
   margin: 10px 0;
   width: 91%;
@@ -106,7 +110,7 @@ textarea {
 input[type="submit"] {
   width: 96%;
   padding: 10px 0;
-  background-color: #046582;
+  background-color: #0b708b;
   border-radius: 15px;
   border: transparent;
   font-size: 1.2em;
@@ -115,6 +119,6 @@ input[type="submit"] {
   transition: 0.7s ease;
 }
 input[type="submit"]:hover {
-  background-color: #074b5e;
+  background-color: #046582;
   transform: scale(1.06);
 }
