@@ -112,6 +112,7 @@ h5 {
 }
 textarea {
   padding: 5px 4px;
+  font-size: 1.2em;
 }
 input[type="submit"] {
   width: 96%;
