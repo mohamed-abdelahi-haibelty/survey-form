@@ -96,3 +96,7 @@ input[type="checkbox"] {
 .checkbox label {
   font-size: 1.4em;
 }
+h5 {
+  font-size: 1.4em;
+  padding-bottom: 10px;
+}
