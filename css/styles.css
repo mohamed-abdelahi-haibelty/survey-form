@@ -32,6 +32,12 @@ section {
   color: #ccc;
   background-color: #041c32;
 }
+::-webkit-input-placeholder {
+  font-size: 1.1em;
+}
+select {
+  font-size: 1.1em;
+}
 input {
   margin: 10px 0;
 }
